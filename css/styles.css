@@ -1,0 +1,32 @@
+body {
+  background-color: lavender;
+}
+
+hr {
+  margin: 20px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-width: 0 0 5px;
+  border-style: solid;
+  border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
+  background-position: 50%;
+  color: orange;
+}
+
+h3 {
+  font-style: italic;
+  color: #c56183;
+}
+
+img:hover {
+  background-color: white;
+}
+
+.skill {
+  color: blue;
+}
+
+#mainheading {
+  background-color: #fadcaa;
+}

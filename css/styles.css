@@ -21,12 +21,12 @@ img {
   margin: 10px;
   padding: 3px;
   border-style: solid;
-  width: 30vw;
+  width:30%;
   border-color: #794c74;
 }
 
 hr {
-  width: 30vw;
+  width: 30%;
   height: 1px;
   border-top: 10px;
   border-left: 0px;
@@ -48,7 +48,6 @@ h3 {
 }
 
 p {
-
   margin: 10px;
 }
 

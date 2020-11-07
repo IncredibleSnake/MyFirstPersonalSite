@@ -1,36 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 body {
+  font-family: 'Source Sans Pro';
+  margin: 10px;
+  padding: 0px;
+  background-size: auto;
   background-color: lavender;
+  font-size: 1.25em;
 }
-a{
+
+a {
+  text-decoration: overline;
   color: #fadcaa;
+  font-family: 'Source Sans Pro';
+  font-variant: small-caps;
+  background-color: #794c74;
 }
-hr {
-  margin: 20px 0;
-  padding: 0;
-  height: 0;
-  border: none;
-  border-width: 0 0 5px;
+
+img {
+  margin: 10px;
+  padding: 3px;
   border-style: solid;
-  border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 1" width="8" height="4"><circle fill="orange" cx="1" cy="0.5" r="0.5"></circle></svg>') 0 0 100% repeat;
-  background-position: 50%;
-  color: orange;
+  width: 30vw;
+  border-color: #794c74;
+}
+
+hr {
+  width: 30vw;
+  height: 1px;
+  border-top: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: dotted;
+  color: #794c74;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 130%;
 }
 
 h3 {
-  font-style: italic;
+  font-family: inherit;
+  font-weight: normal;
   color: #c56183;
 }
-h1 {
-  font-style: italic;
+
+p {
+
+  margin: 10px;
 }
-img:hover {
-  background-color: white;
+
+.example {
+  background-image: none;
+  background-repeat: no-repeat;
 }
 
 .skill {
+  font-family: 'Source Sans Pro';
   color: blue;
 }
 
-#mainheading {
+#heading {
   background-color: #fadcaa;
 }

@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.index{
+  color: white;
+  background-color: black;
+}
 body {
   font-family: 'Source Sans Pro';
   margin: 10px;
@@ -9,21 +22,85 @@ body {
 }
 
 a {
-  text-decoration: overline;
-  color: #fadcaa;
+  text-decoration: none;
   font-family: 'Source Sans Pro';
-  font-variant: small-caps;
+  /*background-color: #794c74;*/
+}
+.navigation-nav{
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navigation-ul{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+.navigation-ul a{
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), default;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  transition: color 0.3s ease 0s;
+  margin-right: 30px;
+}
+.navigation-ul a:hover {
+  transition: 0.3s ease;
+  color: #794c74;
+}
+.index-logo {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.header-text {
+  font-size: 100px;
+  padding-top: 300px;
+  padding-right: 50px;
+  text-align: right;
+}
+.header-text::selection {
   background-color: #794c74;
 }
-
-img {
-  margin: 10px;
-  padding: 3px;
-  border-style: solid;
-  width: 30%;
-  border-color: #794c74;
+.rainbow {
+  background: linear-gradient(to right, red, orange, yellow, lime, cyan, blue, violet, purple);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 10s ease infinite;
+    animation: rainbow 10s ease infinite;
+    line-height: 25px;
+}
+.rainbow::selection {
+  background-color: #794c74;
+}
+.small-text{
+  font-size: 16px;
+  color: rgba(255,255,255, 0.05)
+}
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
 /*
 hr {
   width: 30%;

@@ -147,10 +147,14 @@ p {
   max-height: 200px;
   max-width: 200px;
 }
-
+#exercise .box{
+  width: 200px;
+  height: 200px;
+}
 .boxcontainer {
   margin: 0;
   display: flex;
+  flex-direction: column;
 }
 
 p {

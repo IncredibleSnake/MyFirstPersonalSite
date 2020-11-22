@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parallax</title>
+  <style>
+    body {
+      background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+      background-attachment: fixed;
+    }
+
+    .content-b {
+      padding-top: 15%;
+      text-align: center;
+      margin:200px auto;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: auto;
+      height: 200px;
+      font-size: 48px;
+    }
+
+    .filler {
+      display: block;
+      height: 100vh;
+    }
+    .button {
+      line-height: 1.5;
+      font-size: 20px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+      border: 3px solid #bfdcae;
+      border-radius: 30px;
+    }
+
+    .button:hover {
+      cursor: pointer;
+      transition: 0.3s ease;
+      background-color: #bfdcae;
+    }
+    .button a {
+      color:white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-b">The Parallax is now<p class="button"><a href="index.html">Return</a></p>
+  </div>
+  <div class="filler"></div>
+  <div class="content-b">The Parallax is now
+  <p class="button"><a href="index.html">Return</a></p>
+</div>
+</body>
+
+</html>
